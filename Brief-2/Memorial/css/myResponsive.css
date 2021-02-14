@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*--------------------------------------------------------------The First Part Of Responsive 1199px ---------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1199px)
+{
+
+    .home_page .header {
+        background: rgba(0,0,0);
+    }
+.first {
+    display: none;
+}
+
+.textfirst {
+    display: none;
+}
+
+.firstheader {
+    display: none;
+}
+
+.firstpar{
+    display: none;
+}
+
+.firstbutton {
+    display: none;
+}
+
+.image1{
+    display: none;
+}
+.first{
+    display: none;
+}
+
+    .main-menu ul > li a {
+        padding: 15px 5px;
+   }
+
+   .firstMobile{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    background: linear-gradient(45deg,#A82340,#72297A);
+    flex-direction: column;
+    
+   }
+   
+
+   
+   .firstheaderMobile{
+        color: white;
+        text-align: center;
+        font-size: 29px;
+        margin: 33px;
+        margin-top: 30px;
+   }
+   
+   .firstparMobile{
+      
+       padding-right: 0px;
+        color: white;
+        width: 790px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        opacity: 0.5;
+   }
+   
+   .firstbuttonMobile{
+    width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    background-color: #A82340;
+    color: white;
+    font-size: 19px;
+   }
+   
+   .image1Mobile{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-top: 16px;
+        margin-bottom: 40px;
+   }
+   .firstimageMobile{
+        border-radius: 23px ;
+   }
+
+/*--------------------------------------------------------------The End of The First Part Of Responsive 1199px ---------------------------------------------------------------------------------------*/
+
+.second {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid red;
+    height: 1100px
+}
+
+.image2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.secondimage {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+
+.textsecond {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondheader {
+    
+    width: 341px;
+    border-bottom: 3px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondh2 {
+    width: 103%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.textthird1 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.thirdheader {
+    width: 570px;
+   height: 70px;
+   margin-bottom: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.textthird2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.textthird3 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image4{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    position: relative;
+    top: 0;
+    left: 0;
+   }
+   
+   .fourthimage1{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   
+   .fourthimage2{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -100px;
+    opacity: 0.5;
+   }
+   
+   .fourthimage3{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -60px;
+    opacity: 0.5;
+   }
+   .fourthbutton {
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+}
+
+
+
+
+@media only screen and (max-width: 991px)
+{
+    .home_page .header {
+        background: rgba(0,0,0);
+    }
+    .main-menu ul {
+        min-height: 60px;
+    }
+    .main-menu ul > li a {
+        padding: 15px 2px;
+   }
+
+
+}
+ 
+
+@media only screen and (max-width: 900px)
+{
+    .home_page .header {
+        background: rgba(0,0,0);
+    }
+    .main-menu ul {
+        min-height: 60px;
+    }
+    .main-menu ul > li a {
+        padding: 15px 2px;
+   }
+
+   .firstparMobile {
+    width: 590px;
+    font-size: 24px;
+  
+   }
+   .thirdheader {
+    width: 470px;
+    height: 50px;
+    margin-bottom: 20px;
+     font-size: 33px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .fourthimage1{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   
+   .fourthimage2{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -70px;
+    opacity: 0.5;
+   }
+   
+   .fourthimage3{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -40px;
+    opacity: 0.5;
+   }
+   .second {
+    border-bottom: none;
+    height: 1100px
+}
+
+}
+
+
+@media only screen and (max-width: 767px)
+{
+
+    .home_page .header {
+        background: rgba(0,0,0);
+    }
+  
+   .header {
+       min-height: 90px;
+   }
+}
+
+@media only screen and (min-width:597px)and (max-width: 669px)
+{
+
+        .textthird1 {
+            width: 100%;
+         
+        }
+        .thirdheader {
+            
+            margin-top: 90px;
+            width: 370px;
+            height: 40px;
+            margin-bottom: 20px;
+             font-size: 26px;
+             margin-left: auto;
+             margin-right: auto;
+           }
+
+
+}
+
+
+@media only screen and (min-width:450px)and (max-width: 597px)
+{
+
+        .textthird1 {
+            width: 100%;
+         
+        }
+        .thirdheader {
+            
+            margin-top: 140px;
+            width: 290px;
+            height: 36px;
+            margin-bottom: 20px;
+             font-size: 20px;
+             margin-left: auto;
+             margin-right: auto;
+           }
+
+        .firstparMobile {
+         
+        color: white;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+        line-height: 37px;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        opacity: 0.5;
+        }
+}
+
+
+
+
+@media only screen and (max-width: 575px)
+{
+    .home_page .header {
+        background: rgba(0,0,0);
+    }
+   .header {
+       min-height: 140px;
+   }
+   .firstMobile {
+    margin-top: 0px;
+   }
+
+
+   
+   .fourthimage1{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+   }
+   
+   .fourthimage2{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -45px;
+    opacity: 0.5;
+   }
+   
+   .fourthimage3{
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: -25px;
+    opacity: 0.5;
+   }
+}
