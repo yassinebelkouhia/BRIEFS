@@ -1535,6 +1535,7 @@ ul.locat_icon li a{
 .read-more {
     justify-content: center;
     display: flex;
+    margin-bottom: 50px;
 }
 
 
@@ -1602,7 +1603,6 @@ text-align: center;
  
 .Contact {
     background-color: #282727;
-    margin-top: 90px;
     padding: 90px 0px 90px 0px;
     min-height: 450px;
 }
